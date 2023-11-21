@@ -207,9 +207,9 @@ ul {
 
 .lastSectionText {
   width: 60%;
-  display: block;
-  justify-content: center;
-  align-items: center;
+  font-family: Lato Light;
+  font-size: 20px;
+  text-align: center;
 }
 
 .lastSectionH5 {
@@ -230,7 +230,6 @@ ul {
   text-align: center;
   color: #6d7d8b;
   line-height: 25px;
-  white-space: pre-line;
 }
 .IMG {
   width: 60%;
@@ -328,4 +327,65 @@ li.LastSectionLi {
 
 .lastSectionTel {
   color: #6d7d8b;
+}
+
+.footerWrapper {
+  background: #437f97;
+  padding: 60px 18%;
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 221px;
+  gap: 221px;
+}
+.footerTexta {
+  text-transform: capitalize;
+  font-weight: 700;
+  height: 19px;
+  color: #fff;
+  font-family: Lato;
+}
+.footerColItems {
+  width: 33%;
+  display: flex;
+  flex-direction: row;
+}
+
+.footerTextColumn1,
+.footerTextColumn2 {
+  flex: 1 1;
+  grid-gap: 32px;
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerLogoSocialIcons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footerRightSide {
+  flex: 1 1;
+  grid-gap: 9px;
+  gap: 9px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerRightP {
+  font-family: Lato Bold;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #10c98f;
+  margin-bottom: 30px;
+}
+
+.footerA,
+.footerAddress {
+  font-weight: 700;
+  height: 19px;
+  color: #fff;
+  font-family: Lato;
 }
