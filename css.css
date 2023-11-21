@@ -8,7 +8,6 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-width: 1300px;
   height: 700px;
 }
 .nav {
@@ -101,7 +100,6 @@ ul {
   padding-top: 100px;
   display: flex;
   justify-content: space-around;
-  min-width: 1300px;
   width: 100%;
   padding: 100px 9% 0 9%;
 }
@@ -205,4 +203,129 @@ ul {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.lastSectionText {
+  width: 60%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.lastSectionH5 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 48px;
+  font-family: Lato Bold;
+  font-weight: bolder;
+  color: #25313c;
+}
+
+.lastSectionP {
+  margin: 45px 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  color: #6d7d8b;
+  line-height: 25px;
+  white-space: pre-line;
+}
+.IMG {
+  width: 60%;
+}
+
+.lastSectionImg {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cbd8dd;
+}
+
+.lastSectionBoxHeaderText {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  color: #25313c;
+}
+
+li.LastSectionLi {
+  list-style-image: url(/Images/check2.svg);
+}
+
+.LastSectionLi,
+.courseduration {
+  font-family: Lato;
+  font-style: normal;
+  font-size: 18px;
+  color: #6d7d8b;
+  margin-top: 15px;
+}
+
+.lastSectionBox {
+  display: flex;
+  grid-gap: 20px;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.lastSectionBoxHeader {
+  display: flex;
+  align-items: center;
+  grid-gap: 10px;
+  gap: 10px;
+}
+
+.lastSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0;
+}
+
+.lastSectionBoxes {
+  display: flex;
+  width: 100%;
+  grid-gap: 25px;
+  gap: 25px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.lastSectionUl {
+  padding-left: 20px;
+  display: block;
+  width: fit-content;
+
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.lastSectionWrapper {
+  width: 100%;
+  padding: 0 9%;
+}
+
+.lastSectionFooter {
+  margin: 45px 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  color: #6d7d8b;
+  line-height: 25px;
+  white-space: pre-line;
+  display: block;
+}
+
+.lastSectionTel {
+  color: #6d7d8b;
 }
