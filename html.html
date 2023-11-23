@@ -14,8 +14,14 @@
 </head>
 
 <body>
+
   <div class="header-nav-wrapper">
-    <nav class="nav">
+    <nav class="MobileNav">
+      <img src="/Images/bar (2).png" alt="Hamburger">
+      <img src="/Images/black_logo.png" alt="Logo">
+    </nav>
+
+    <nav class="nav" id="nav">
       <img src="/Images/black_logo.png" alt="logo" />
       <ul>
         <li><a class="header-selector" href="#">about us</a></li>
@@ -27,6 +33,21 @@
         <li><a class="header-selector" href="#">en</a></li>
       </ul>
     </nav>
+    <script>
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        const nav = document.getElementById("nav");
+
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          nav.classList.add("scrolled");
+        } else {
+          nav.classList.remove("scrolled");
+        }
+      }
+    </script>
     <header class="header">
       <div class="header-h1p1">
         <h1 class="header-h1">turn your idea into<br> a business</h1>
@@ -51,7 +72,9 @@
         always hear satisfying feedback from our customers.
       </p>
     </div>
-    <img src="/Images/team start.png" alt="Team" class="team-photo" />
+    <div class="article_img">
+      <img src="/Images/team start.png" alt="Team" class="team-photo" />
+    </div>
   </article>
 
   <article class="article-solution">
@@ -179,7 +202,7 @@
       </div>
       <p class="lastSectionFooter">For more details contact us:
         <a class="lastSectionTel" href="tel:+37444653606">+37444 653606,</a>
-        <a class="lastSectionEmail" lhref="mailto:training@goya.am">training@goya.am</a>
+        <a class="lastSectionEmail" href="mailto:training@goya.am">training@goya.am</a>
       </p>
     </div>
   </div>
@@ -190,45 +213,46 @@
 
 
 
+  <div class="footerWrapperWrapper">
+    <footer class="footerWrapper">
 
-  <footer class="footerWrapper">
-
-    <div class="footerColItems">
-      <div class="footerTextColumn1">
-        <a class="footerTexta" href="">about us</a>
-        <a class="footerTexta" href="">services</a>
-        <a class="footerTexta" href="">our team</a>
+      <div class="footerColItems">
+        <div class="footerTextColumn1">
+          <a class="footerTexta" href="">about us</a>
+          <a class="footerTexta" href="">services</a>
+          <a class="footerTexta" href="">our team</a>
+        </div>
+        <div class="footerTextColumn2">
+          <a class="footerTexta" href="">contact</a>
+          <a class="footerTexta" href="">careers</a>
+          <a class="footerTexta" href="">courses</a>
+        </div>
       </div>
-      <div class="footerTextColumn2">
-        <a class="footerTexta" href="">contact</a>
-        <a class="footerTexta" href="">careers</a>
-        <a class="footerTexta" href="">courses</a>
+
+
+
+
+      <div class="footerLogoSocial">
+        <img src="/Images/white_logo.png" alt="Goya Logo">
+        <div class="footerLogoSocialIcons">
+          <a href="#"><img src="/Images/facebook_white.svg" alt="Facebook Logo"></a>
+          <a href="#"><img src="/Images/white_linkedin.svg" alt="Linkdin Logo"></a>
+        </div>
       </div>
-    </div>
 
 
 
+      <div class="footerRightSide">
+        <p class="footerRightP">contact us</p>
+        <a class="footerA" href="mailto:info@goya.am">info@goya.am</a>
 
-    <div class="footerLogoSocial">
-      <img src="/Images/white_logo.png" alt="Goya Logo">
-      <div class="footerLogoSocialIcons">
-        <a href="#"><img src="/Images/facebook_white.svg" alt="Facebook Logo"></a>
-        <a href="#"><img src="/Images/white_linkedin.svg" alt="Linkdin Logo"></a>
+        <a class="footerA" href="tel:+37455575332">+37455 575332</a>
+        <p class="footerAddress">24/15 Azatutyan Ave, Yerevan</p>
       </div>
-    </div>
 
 
-
-    <div class="footerRightSide">
-      <p class="footerRightP">contact us</p>
-      <a class="footerA" href="mailto:info@goya.am">info@goya.am</a>
-
-      <a class="footerA" href="tel:+37455575332">+37455 575332</a>
-      <p class="footerAddress">24/15 Azatutyan Ave, Yerevan</p>
-    </div>
-
-
-  </footer>
+    </footer>
+  </div>
 
 </body>
 
